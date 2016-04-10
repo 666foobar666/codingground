@@ -23,7 +23,7 @@ public class warmUpQ02
          // step0: open file and read it into a buffer
          FileReader l_fr = new FileReader(p_filename);
          BufferedReader l_br = new BufferedReader(l_fr);
-         String l_line = br.readLine();
+         String l_line = l_br.readLine();
             
          // step1: iterate through the file
          while(line != null){
