@@ -21,16 +21,16 @@ public class warmUpQ02
       try
       {
          // step0: open file and read it into a buffer
-         FileReader fr = new FileReader(p_filename);
-         BufferedReader br = new BufferedReader(fr);
-         String line = br.readLine();
+         FileReader l_fr = new FileReader(p_filename);
+         BufferedReader l_br = new BufferedReader(l_fr);
+         String l_line = br.readLine();
             
          // step1: iterate through the file
          while(line != null){
             // step2: grap a line from a file
-            line = br.readLine();
+            l_line = l_br.readLine();
             // step3: assign the line to an ArrayList
-            l_returnWords.add(line);
+            l_returnWords.add(l_line);
          }
          
 
