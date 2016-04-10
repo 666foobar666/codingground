@@ -26,10 +26,9 @@ public class warmUpQ02
             
          // step1: iterate through the file
             while(line != null){
+         // step2: grap a line from a file
                line = br.readLine();
             }
-         
-         // step2: grap a line from a file
          
          // step3: assign the line to an ArrayList
          
