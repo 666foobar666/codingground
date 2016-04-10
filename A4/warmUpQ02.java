@@ -24,9 +24,9 @@ public class warmUpQ02
             BufferedReader br = new BufferedReader(fr);
             String line = br.readLine();
             
-         // step1: iterate through the file
+            // step1: iterate through the file
             while(line != null){
-         // step2: grap a line from a file
+               // step2: grap a line from a file
                line = br.readLine();
             }
          
