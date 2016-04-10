@@ -41,8 +41,11 @@ public class warmUpQ02
    public static void printArrayList(ArrayList<String> p_words)
    {
       // step1: iterate through ArrayList
-      // step2: print to console each element
-      
+      for(String l_word: p_words){
+         // step2: print to console each element
+         System.out.println(l_word + "\n");
+      }
+     
       
    }
     
