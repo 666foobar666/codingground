@@ -27,10 +27,12 @@ public class warmUpQ02
             
          // step1: iterate through the file
          while(l_line != null){
-            // step2: grap a line from a file
-            l_line = l_br.readLine();
-            // step3: assign the line to an ArrayList
+            // step2: assign the line to an ArrayList
             l_returnWords.add(l_line);
+            // step3: grap a line from a file
+            l_line = l_br.readLine();
+            
+            
          }
          
 
