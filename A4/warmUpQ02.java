@@ -20,15 +20,15 @@ public class warmUpQ02
       try
       {
          // step0: open file and read it into a buffer
-            FileReader fr = new FileReader(p_filename);
-            BufferedReader br = new BufferedReader(fr);
-            String line = br.readLine();
+         FileReader fr = new FileReader(p_filename);
+         BufferedReader br = new BufferedReader(fr);
+         String line = br.readLine();
             
-            // step1: iterate through the file
-            while(line != null){
-               // step2: grap a line from a file
-               line = br.readLine();
-            }
+         // step1: iterate through the file
+         while(line != null){
+            // step2: grap a line from a file
+            line = br.readLine();
+         }
          
          // step3: assign the line to an ArrayList
          
