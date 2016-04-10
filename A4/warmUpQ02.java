@@ -11,13 +11,10 @@ public class warmUpQ02
     
       printArrayList(l_words);
    }  
-  
-    
+   
    public static ArrayList<String> readFileToArrayList(String p_fileName)
    {
       ArrayList<String> l_returnWords = new ArrayList<String>();
-      
-     
       try
       {
          // step0: open file and read it into a buffer
@@ -31,18 +28,12 @@ public class warmUpQ02
             l_returnWords.add(l_line);
             // step3: grap a line from a file
             l_line = l_br.readLine();
-            
-            
          }
-         
-
-         
       }
       catch(IOException e)
       {
          e.printStackTrace();
       }
-   
       
       return( l_returnWords );
    }
