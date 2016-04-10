@@ -17,6 +17,7 @@ public class warmUpQ02
    {
       ArrayList<String> l_returnWords = new ArrayList<String>();
       
+      // step0: open file and read it into a buffer
       // step1: iterate through the file
       // step2: grap a line from a file
       // step3: assign the line to an ArrayList
