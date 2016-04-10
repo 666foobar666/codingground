@@ -10,6 +10,10 @@ public class warmUpQ03
       l_words = readFileToArrayList("HelloWorld.java");
     
       printArrayList(l_words);
+      
+      int l_numberOfWords; 
+      l_numberOfWords = getNumberOfWords(l_words) ; 
+      System.out.println ("Number of words in file" + Int.String(l_numberOfWords) );
    }  
    
    public static ArrayList<String> readFileToArrayList(String p_fileName)
@@ -47,6 +51,15 @@ public class warmUpQ03
       }
      
       
+   }
+   public static int getNumberOfWords(ArrayList<String> p_words){
+      //step 1: iterate through ArrayList
+      for(String l_word: p_words){
+         //step2: print to console each element
+         System.out.println(l_word);
+         //step3: separate each line into words and assign to an array
+         //step4: count words (get array length) and assign to "counter"
+         //step5: return varaiable "counter"
    }
     
     
