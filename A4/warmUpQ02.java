@@ -17,21 +17,21 @@ public class warmUpQ02
    {
       ArrayList<String> l_returnWords = new ArrayList<String>();
       
-      
-      try{
-      // step0: open file and read it into a buffer
-         FileReader fr = new FileReader(p_filename);
-         BufferedReader br = new BufferedReader(fr);
-         String line = br.readLine();
-      // step1: iterate through the file
-      // step2: grap a line from a file
-      // step3: assign the line to an ArrayList
-      }catch(IOException e){
+      try
+      {
+         // step0: open file and read it into a buffer
+            FileReader fr = new FileReader(p_filename);
+            BufferedReader br = new BufferedReader(fr);
+            String line = br.readLine();
+         // step1: iterate through the file
+         // step2: grap a line from a file
+         // step3: assign the line to an ArrayList
+      }
+      catch(IOException e)
+      {
+         e.printStackTrace();
       }
    
-      
-      
-      
       
       return( l_returnWords );
    }
