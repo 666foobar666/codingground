@@ -29,9 +29,11 @@ public class warmUpQ02
          while(line != null){
             // step2: grap a line from a file
             line = br.readLine();
+            // step3: assign the line to an ArrayList
+            l_returnWords.add(line);
          }
          
-         // step3: assign the line to an ArrayList
+
          
       }
       catch(IOException e)
