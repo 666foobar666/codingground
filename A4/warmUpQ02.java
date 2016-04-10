@@ -16,6 +16,10 @@ public class warmUpQ02
    public static ArrayList<String> readFileToArrayList(String p_fileName)
    {
       ArrayList<String> l_returnWords = new ArrayList<String>();
+      // step3: assign the line to an ArrayList
+      l_returnWords.add("Joshua");
+      l_returnWords.add("and");
+      l_returnWords.add("Dady");
       
       try
       {
@@ -30,7 +34,7 @@ public class warmUpQ02
             line = br.readLine();
          }
          
-         // step3: assign the line to an ArrayList
+         
          
       }
       catch(IOException e)
