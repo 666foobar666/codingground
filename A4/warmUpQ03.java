@@ -69,6 +69,8 @@ public class warmUpQ03
          l_line.trim();
          if ( 0 < l_line.length() )
          {
+            // \s	A whitespace character: [ \t\n\x0B\f\r]
+            // \W	A non-word character: [^\w]
             l_words = l_line.trim().split("[\\s\\W]+");
             
             System.out.println(Arrays.toString(l_words));
